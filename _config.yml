@@ -1,0 +1,17 @@
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: Trillemarka
+email: webmaster@trillemarka.no
+description: > # this means to ignore newlines until "baseurl:"
+  A website dedicated to the Trillemarka-Rollagsfjell
+  nature reserve.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://trillemarka.no" # the base hostname & protocol for your site
+#twitter_username: jekyllrb
+github_username:  trillemarka
+
+# Build settings
+markdown: redcarpet # kramdown
+
