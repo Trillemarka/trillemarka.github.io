@@ -1,3 +1,5 @@
+[![Stories in Ready](https://badge.waffle.io/trillemarka/trillemarka.github.io.svg?label=ready&title=Ready)](http://waffle.io/trillemarka/trillemarka.github.io)
+
 trillemarka.github.io
 =====================
 
