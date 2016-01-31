@@ -12,21 +12,19 @@ order: 5
   Most posts will cover news related to the webpage
   or minor news that doesn't fit other categories.
 
-
   <ul class="post-list">
       {% assign sorted_posts = site.posts | sort:'date' %}
       {% for my_post in sorted_posts %}
           {% if my_post.categories contains 'en' and my_post.categories contains 'blog' %}
-          <li>
-              <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+              <li>
+                  <span class="post-meta">{{ my_post.date | date: "%b %-d, %Y" }}</span>
 
-              <h2>
-                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-              </h2>
-          </li>
+                  <h2>
+                      <a class="post-link" href="{{ my_post.url | prepend: site.baseurl }}">{{ my_post.title }}</a>
+                  </h2>
+              </li>
           {% endif %}
       {% endfor %}
-
   </ul>
 
   <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
