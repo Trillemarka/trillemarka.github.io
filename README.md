@@ -1,9 +1,9 @@
-[![Stories in Ready](https://badge.waffle.io/trillemarka/trillemarka.github.io.svg?label=ready&title=Ready)](http://waffle.io/trillemarka/trillemarka.github.io)
-
 trillemarka.github.io
 =====================
 
 New Trillemarka webpages made with Jekyll and hosted by Github Pages.
+
+Using [zube](zube.io/projects/4531/kanban) for organizing issues.
 
 Server
 ------
