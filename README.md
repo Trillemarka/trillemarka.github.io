@@ -3,7 +3,7 @@ trillemarka.github.io
 
 New Trillemarka webpages made with Jekyll and hosted by Github Pages.
 
-Using [zube](zube.io/projects/4531/kanban) for organizing issues.
+Using [zube](https://zube.io/projects/4531/kanban) for organizing issues.
 
 Server
 ------
